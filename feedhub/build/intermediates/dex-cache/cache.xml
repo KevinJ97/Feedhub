@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="/Users/kevinjnguyen/.gradle/caches/modules-2/files-2.1/com.parse/parse-android/1.11.0/6592129dec2caa8791d322c7e4b6b7a30e8eadae/parse-android-1.11.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6592129dec2caa8791d322c7e4b6b7a30e8eadae">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/parse-android-1.11.0-adf6dea6eacf87c9a2e07d2e7c050fcd38abe5eb.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="6cbc7773921fcfedbe55657578f0cbfe614778dc">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/classes-a3c9858134e26208188fd5dca961377191aea1ed.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/23.1.1/support-annotations-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8d680ba5a623724d1fb0e81c36a790f023a6cede">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/support-annotations-23.1.1-02fcecd719282fd526f7f9ae1e30c6e31fa97b98.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-applinks/1.3.0/bc535105332645408ef5f1380215cc954b842178/bolts-applinks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="bc535105332645408ef5f1380215cc954b842178">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/bolts-applinks-1.3.0-a536a861a229a6c2d0009ce89b5b948c41a87ca7.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.android.support/recyclerview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="4356e230a981d1bbf047d848b91bc0d9b7c5bacc">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/classes-fa3ddd853fac59adfebc5009feb88dab0484e5a0.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.android.support/cardview-v7/23.0.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="39ae02ce40c3ac828abbf780ce0ff5d7a28b7d6a">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/classes-949ee0535ace27bae8c3ce701115ca2698ab438d.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.oguzdev/CircularFloatingActionMenu/1.0.2/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="607d961caf1a59b6e782724654c1f3229e036c20">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/classes-702c24d17e8aa7a878b2edaa9c85e82178fd5868.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.android.support/support-v4/23.1.1/jars/libs/internal_impl-23.1.1.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="a4de9c81ae239414e1ed0f86441b02abaf29bca9">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/internal_impl-23.1.1-a4ee8bb75d223fc651c69806b4f22fbd6b8a6692.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/.gradle/caches/modules-2/files-2.1/com.parse.bolts/bolts-tasks/1.3.0/8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c/bolts-tasks-1.3.0.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="8a62fd16fcc1c06f284fc98e6cbded2a5af1dd4c">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/bolts-tasks-1.3.0-7cf1803cbd59662448e19981325296724f3fa45d.jar" />
+    </item>
+    <item
+        jar="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/exploded-aar/com.android.support/appcompat-v7/23.1.1/jars/classes.jar"
+        jumboMode="false"
+        revision="23.0.2"
+        sha1="5c5699834e9722f1c288fea2de82725d078ba127">
+        <dex dex="/Users/kevinjnguyen/Desktop/GitHub/FeedhubTAMU/feedhub/app/build/intermediates/pre-dexed/debug/classes-0c7ed95c6a542e4e9621238539d2f3dd953b1c14.jar" />
+    </item>
+
+</items>
