@@ -39,13 +39,15 @@ public class LoginActivity extends AppCompatActivity {
 
 
         // Enable Local Datastore.
+        Parse.enableLocalDatastore(this);
+        Parse.initialize(this, "TwyMSUuSAQ8PN4k5jN9WlGQuND5GW9qg0nPqphX4", "IB4FLyPQ64W6Nje3O6bRMlYqfjQfq0DNyXDRo4Xw");
 
         ParseUser currentUser = ParseUser.getCurrentUser();
-//        if (currentUser != null) {
-//            Intent gotoMainActivity = new Intent(getApplicationContext(), MainActivity.class); //where we send it if logged in
-//            startActivity(gotoMainActivity);
-//            finish();
-//        }
+        if (currentUser != null) {
+            Intent gotoMainActivity = new Intent(getApplicationContext(), MainActivity.class); //where we send it if logged in
+            startActivity(gotoMainActivity);
+            finish();
+        }
 
         b1=(Button)findViewById(R.id.button);
         ed1=(EditText)findViewById(R.id.editText);

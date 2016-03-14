@@ -1,6 +1,5 @@
 package com.codemaroon.feedhub;
 
-import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.Resources;
 import android.support.v4.app.Fragment;
@@ -10,8 +9,6 @@ import android.support.v4.app.FragmentPagerAdapter;
 import android.support.v4.view.ViewPager;
 import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.Toolbar;
-import android.view.Menu;
-import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.widget.ImageView;
@@ -22,7 +19,6 @@ import com.codemaroon.feedhub.Fragments.ChatFragment;
 import com.codemaroon.feedhub.Fragments.FeedFragment;
 import com.codemaroon.feedhub.libs.SlidingTabLayout;
 import com.oguzdev.circularfloatingactionmenu.library.FloatingActionButton;
-import com.parse.ParseUser;
 
 
 public class MainActivity extends AppCompatActivity {
@@ -43,10 +39,9 @@ public class MainActivity extends AppCompatActivity {
         String username = feedMeUser.getString("username", "null"); //2
         //Toast.makeText(getApplicationContext(), username, Toast.LENGTH_LONG).show();
 
-        mToolBar = (Toolbar) findViewById(R.id.appBar);
-        setSupportActionBar(mToolBar);
-        getSupportActionBar().setDisplayShowHomeEnabled(true);
-        getSupportActionBar().setDisplayShowTitleEnabled(false);
+        //mToolBar = (Toolbar) findViewById(R.id.appBar);
+        //setSupportActionBar(mToolBar);
+        //getSupportActionBar().setDisplayShowHomeEnabled(true);
 
         mViewPager = (ViewPager) findViewById(R.id.viewPager);
         mTabs = (SlidingTabLayout) findViewById(R.id.tabs);
@@ -74,30 +69,11 @@ public class MainActivity extends AppCompatActivity {
     }
 
     @Override
-    public boolean onCreateOptionsMenu(Menu menu) {
-        MenuInflater inflater = getMenuInflater();
-        inflater.inflate(R.menu.menu_main, menu);
-        return true;
-    }
-
-    @Override
     public boolean onOptionsItemSelected(MenuItem item) {
         int id = item.getItemId();
 
         if (id == R.id.action_logout) {
-            //Toast.makeText(getApplicationContext(), "sdfs", Toast.LENGTH_LONG).show();
-//            ParseUser.logOut();
-//            ParseUser currentUser = ParseUser.getCurrentUser();
-
-            SharedPreferences feedMeUser = getSharedPreferences("feedMeUser",
-                    getApplicationContext().MODE_PRIVATE);
-            SharedPreferences.Editor editor = feedMeUser.edit();
-            editor.clear();
-            editor.commit();
-
-            Intent i = new Intent(getApplicationContext(), LoginActivity.class);
-            startActivity(i);
-            finish();
+            Toast.makeText(getApplicationContext(), "sdfs", Toast.LENGTH_LONG).show();
             return true;
         }
 

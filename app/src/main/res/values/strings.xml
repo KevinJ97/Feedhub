@@ -1,10 +1,8 @@
 <resources>
-    <string name="app_name">Feedhub TAMU</string>
+    <string name="app_name">FeedHub</string>
 
 <!-- TODO: Remove or change this placeholder text -->
     <string name="hello_blank_fragment">Hello blank fragment</string>
     <string name="hello_blank_fragment2">Hello blank fragment2</string>
     <string name="login_textview">Feed Me</string>
-    <string name="tamu">tamu.edu</string>
-    <string name="university">Texas A&amp;M</string>
 </resources>

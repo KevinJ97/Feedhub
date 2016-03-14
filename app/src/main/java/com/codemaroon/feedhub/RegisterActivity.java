@@ -51,8 +51,6 @@ public class RegisterActivity extends AppCompatActivity {
                 String verify = "";
                 if (userName.equals("")) verify = "blank_username";
                 else if (!(userName.contains("@"))) verify = "invalid_email";
-                else if (!(userName.substring(userName.length() - 8, userName.length()).equals("tamu.edu")))
-                    verify = "Incorrect University";
                 else if (!(userName.substring(userName.length() - 4, userName.length()).equals(".edu")))
                     verify = "no_edu";
                 else if (!(password.equals(confirmPassword))) verify = "invalid_password";
