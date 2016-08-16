@@ -1,10 +1,19 @@
-# feedhub android application
+# Feedhub
 
-Created during the Hack Houston Hackathon this year (2015) and won the top six! 
-A fun way to network and meet new people while getting free food! :D
+As college students, meal plans are always desired but the costs can outweigh the benefits of having one. However, lots of students realize that they buy too large of a meal plan and what happens if they do not use them at the end of the semester? They go away and their universities profit. Feedhub is a group made application encourages students to share their extra meal plans as well get to know other students as well.
 
-- An app that lets you create your own profile and share meal points that you may have left over or just have too many that you will never use during your college semester.
-- View other peoples posted meal points and ask to have breakfast/lunch/dinner with them. 
-- Only students (valid .edu email) can post and/or request a free meal so safe
-- [Still work in progress] Ability to chat with the other person before you go out to eat with them
+> Event: CodeRED University of Houston 2016 Hackathon Finalist
+
+## Technologies
+
+Feedhub uses a variety of different technologies to work properly:
+* Parse - Manages our authentication and application
+* Java - Java Android Application
+* Android SDKs - Supports from Android OS 4.0+
+
+License
+----
+
+MIT
+
 
